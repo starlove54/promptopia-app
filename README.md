@@ -1,3 +1,5 @@
+![alt text](public/assets/banner.png)
+
 # Promptopia: AI-Powered Creative Prompting Tool
 
 **Discover, Create, and Share Creative Prompts with the Power of AI**
