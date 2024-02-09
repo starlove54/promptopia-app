@@ -20,8 +20,8 @@ const EditPrompt = () => {
 
       const data = await response.json()
       setPost({
-        prompt: data.prompt,
-        tag: data.tag,
+        prompt: data.prompt || '', // Set default value for prompt
+        tag: data.tag || '', // Set default value for tag
       })
     }
     if (promptId) getPromptDetails()
