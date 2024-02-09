@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 
 // import Form from '@components/Form'
-import Form from '../../components/Form'
+import Form from '@components/Form'
 
 const EditPrompt = () => {
   const router = useRouter()
@@ -17,10 +17,7 @@ const EditPrompt = () => {
 
   useEffect(() => {
     const getPromptDetails = async () => {
-      console.log('Before fetch:', promptId)
-
       const response = await fetch(`/api/prompt/${promptId}`)
-      console.log('After fetch:', response)
 
       const data = await response.json()
       setPost({
