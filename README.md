@@ -20,6 +20,12 @@ Promptopia is an open-source AI-powered prompting tool designed for the modern w
 
 - **Authentication and Authorization:** Ensures secure access and personalized experiences for users through authentication and authorization features.
 
+## Screenshots
+
+![home page](public/assets/promptopia-screen-1.png)
+![profile](public/assets/promptopia-screen-2.png)
+![create a new post](public/assets/promptopia-screen-3.png)
+
 ## How It Works
 
 1. **Discover:** Explore a vast collection of AI-generated prompts covering a wide range of topics and themes.
